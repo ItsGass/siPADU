@@ -188,6 +188,27 @@ Opsional:
 - **VSCode** — untuk membuka dan mengedit kode.
 - **Node.js 20+** — hanya diperlukan kalau ingin mengubah tampilan/CSS/JavaScript. Untuk menjalankan aplikasi saja, Node.js **tidak wajib** karena hasil build sudah disertakan di folder `public/build`.
 
+### Kalau laptop masih benar-benar kosong
+
+1. Install **Laragon Full**:
+   - Buka https://laragon.org/download/
+   - Pilih **Laragon Full** (bukan versi Lite).
+   - Jalankan installer, klik **Next** sampai **Finish**.
+2. Install **Git**:
+   - Buka https://git-scm.com/download/win
+   - Download installer Windows, lalu klik **Next** sampai **Install**.
+3. Buka **Laragon**, klik **Start All**.
+4. Buka **Laragon Terminal**, lalu cek ketiga perintah ini:
+
+   ```bash
+   php -v
+   composer --version
+   git --version
+   ```
+
+   Kalau ketiganya menampilkan versi, lanjut ke bagian **Mulai Cepat**.
+5. VSCode **tidak wajib** untuk menjalankan aplikasi. Node.js juga **tidak wajib**.
+
 ### Kalau belum punya Git
 
 Download repository dalam bentuk ZIP:
